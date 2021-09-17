@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+}
+
+/* navegation bar */
+*{
+    MARGIN:0PX;
+    PADDING:0PX;
+}
+
+a{
+    text-decoration: none!important;
+}
+button {
+    background-color: #16e732;
+    border: none;
+    color: #16e732;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 30px;
+}  
+
+button{
+    text-decoration: none;
+    color:#16e732;
+    border:2px solid  #16e732;
+}
+button:hover{
+    background-color: #16e732;
+    color: #050801;
+    box-shadow:  0 0 5px #16e732,
+    0 0 25px #16e732,
+    0 0 50px #16e732,
+    0 0 100px #16e732;
+
+}
+
+/* button:hover {background-color: rgb(233, 24, 24)} */
+
+button:active {
+  background-color: black;
+  box-shadow: 0 5px #16e732;
+  transform: translateY(4px);}
+  a{
+      color:white;
+  }
+
+
+/* div{
+    display: inline-block;
+}
+div#main{
+    position: absolute;
+    left: 30px;
+} */
+div.gallery {
+    background-color: white;
+  margin: 5px;
+  border: 1px solid #ccc;
+  
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.gallery:hover{
+    background-color: #16e732;
+    color: #050801;
+    box-shadow:  0 0 5px #16e732,
+    0 0 25px #16e732,
+    0 0 50px #16e732,
+    0 0 100px #16e732;  
+}
+
+/* #chemistry{
+    position: absolute;
+    left: 192px;
+    top: 150px;
+} */
+/* #computer{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+#excel{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+} */
+/* #craft{
+    position: absolute;
+    right: 400px;
+    top: 230px;
+} */
+#some{
+    width: 500px;
+    background-color: #16e732;
+    border-radius: 30px;
+    position: absolute;
+   top: 190px;
+   left: 35%;
+    /* transform: rotate(-10deg); */
+ 
+}
+#some:hover{
+    background-color: #16e732;
+    color: #050801;
+    box-shadow:  0 0 5px #16e732,
+    0 0 25px #16e732,
+    0 0 50px #16e732,
+    0 0 100px #16e732;
+}
+#pakistan{
+    text-align: center;
+    font-style: oblique;
+  
+}
+div#comment{
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #ccc;
+    border: 9px double grey;
+}
